@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<owner>
+    <firstName>${owner-firstName}</firstName>
+    <lastName>${owner-lastName}</lastName>
+    <address>${owner-address}</address>
+    <city>${owner-city}</city>
+    <telephone>${owner-telephone}</telephone>
+</owner>

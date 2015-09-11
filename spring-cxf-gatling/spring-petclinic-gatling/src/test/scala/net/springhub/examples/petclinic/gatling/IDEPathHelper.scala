@@ -14,7 +14,7 @@ object IDEPathHelper {
 	val mavenBinariesDirectory = mavenTargetDirectory / "test-classes"
 
 	val dataDirectory = mavenResourcesDirectory / "data"
-	val bodiesDirectory = mavenResourcesDirectory / "bodies"
+	val bodiesDirectory = mavenResourcesDirectory / "request-bodies"
 
 	val recorderOutputDirectory = mavenSourcesDirectory
 	val resultsDirectory = mavenTargetDirectory / "results"

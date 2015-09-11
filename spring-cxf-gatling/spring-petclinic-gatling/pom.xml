@@ -32,6 +32,7 @@
 	</dependencies>
 
 	<build>
+	    <testSourceDirectory>${basedir}\src\test\scala</testSourceDirectory>
 		<plugins>
 			<plugin>
 				<groupId>io.gatling</groupId>

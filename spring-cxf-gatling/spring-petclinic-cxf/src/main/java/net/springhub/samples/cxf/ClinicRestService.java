@@ -3,8 +3,11 @@ package net.springhub.samples.cxf;
 import java.util.Collection;
 
 import javax.ws.rs.GET;
+import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
 
 import org.springframework.samples.petclinic.model.Owner;
 import org.springframework.samples.petclinic.model.Pet;
@@ -55,5 +58,11 @@ public class ClinicRestService {
 	public Collection<Owner> findOwnerByLastName(String lastName) {
     	return clinicService.findOwnerByLastName(lastName);
     }
+	
+	@POST
+	@Path(value = "owner")
+	public void createOwner(Owner owner) {
+		clinicService.saveOwner(owner);
+	}
     
 }

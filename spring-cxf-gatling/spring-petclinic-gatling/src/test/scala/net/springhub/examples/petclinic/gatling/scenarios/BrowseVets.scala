@@ -6,7 +6,7 @@ import scala.concurrent.duration._
 
 object BrowseVets {
   
-   val listVets = exec(http("List Vets")
+   val vets = exec(http("List Vets")
                      .get("/vets")
                      .check(xpath("//vets")))
 }

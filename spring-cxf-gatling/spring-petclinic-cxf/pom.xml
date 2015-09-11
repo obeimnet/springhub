@@ -5,7 +5,7 @@
 	<artifactId>spring-petclinic-cxf</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 
-	<name>petclinic</name>
+	<name>spring-petclinic-cxf</name>
 	<packaging>war</packaging>
 
 	<properties>
