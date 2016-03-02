@@ -31,7 +31,7 @@
 		</dependency>
 	</dependencies>
 
-	<build>
+	<!-- <build>
 	    <testSourceDirectory>${basedir}\src\test\scala</testSourceDirectory>
 		<plugins>
 			<plugin>
@@ -43,9 +43,12 @@
 						<goals>
 							<goal>execute</goal>
 						</goals>
+						<configuration>
+							
+						</configuration>
 					</execution>
 				</executions>
 			</plugin>
 		</plugins>
-	</build>
+	</build> -->
 </project>
