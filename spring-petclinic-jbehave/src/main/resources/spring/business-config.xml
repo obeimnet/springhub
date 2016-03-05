@@ -14,6 +14,7 @@
 
     <!-- import the dataSource definition -->
     <import resource="datasource-config.xml"/>
+    <import resource="tools-config.xml"/>
 
     <context:component-scan
         base-package="org.springframework.samples.petclinic.service"/>

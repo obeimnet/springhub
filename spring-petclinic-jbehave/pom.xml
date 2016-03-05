@@ -45,6 +45,7 @@
 
         <cobertura.version>2.7</cobertura.version>
 
+		<jbehave.version>4.0.5</jbehave.version>
     </properties>
 
     <dependencyManagement>
@@ -275,6 +276,27 @@
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
         </dependency>
+        
+          <dependency>
+            <groupId>org.jbehave</groupId>
+            <artifactId>jbehave-core</artifactId>
+            <version>${jbehave.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jbehave</groupId>
+            <artifactId>jbehave-spring</artifactId>
+            <version>${jbehave.version}</version>
+        </dependency>
+<!-- 
+        <dependency>
+            <groupId>org.jbehave.site</groupId>
+            <artifactId>jbehave-site-resources</artifactId>
+            <version>3.1.1</version>
+            <type>zip</type>
+        </dependency>
+         -->
+        
     </dependencies>
 
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
