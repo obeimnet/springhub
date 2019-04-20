@@ -1,0 +1,3 @@
+language: java
+jdk: openjdk11
+script: mvn -f spring-petclinic-junit5/pom.xml package
