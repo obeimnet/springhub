@@ -5,7 +5,7 @@ A modified version of Sprig PetClinic Application with all unit and integration 
 
 ## Summary of Changes: ##
 
-**Junit4 to JUnit5 mapping:**
+**JUnit4 to JUnit5 mapping:**
 
 - org.junit.Test=>org.junit.jupiter.api.Test
 
